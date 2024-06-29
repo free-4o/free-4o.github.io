@@ -3,11 +3,11 @@
   <title>WhaleAI - ChatGPT中文网</title>
   
   <subtitle>免费ChatGPT资源与指南</subtitle>
-  <link href="https://gpt-openai.github.io/atom.xml" rel="self"/>
+  <link href="https://oai-chatgpt.github.io/atom.xml" rel="self"/>
   
-  <link href="https://gpt-openai.github.io/"/>
+  <link href="https://oai-chatgpt.github.io/"/>
   <updated>2024-06-29T10:36:24.720Z</updated>
-  <id>https://gpt-openai.github.io/</id>
+  <id>https://oai-chatgpt.github.io/</id>
   
   <author>
     <name>WhaleAI</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>OpenAI ChatGPT账号购买 ChatGPT Plus升级订阅</title>
-    <link href="https://gpt-openai.github.io/chatgpt-buy/"/>
-    <id>https://gpt-openai.github.io/chatgpt-buy/</id>
+    <link href="https://oai-chatgpt.github.io/chatgpt-buy/"/>
+    <id>https://oai-chatgpt.github.io/chatgpt-buy/</id>
     <published>2024-06-28T04:00:00.000Z</published>
     <updated>2024-06-29T10:36:24.720Z</updated>
     
@@ -30,45 +30,45 @@
     
     
     
-    <category term="科技" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/"/>
+    <category term="科技" scheme="https://oai-chatgpt.github.io/categories/%E7%A7%91%E6%8A%80/"/>
     
-    <category term="人工智能" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    <category term="人工智能" scheme="https://oai-chatgpt.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
     
-    <category term="ChatGPT" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/ChatGPT/"/>
+    <category term="ChatGPT" scheme="https://oai-chatgpt.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/ChatGPT/"/>
     
-    <category term="ChatGPT Plus" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/ChatGPT/ChatGPT-Plus/"/>
+    <category term="ChatGPT Plus" scheme="https://oai-chatgpt.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/ChatGPT/ChatGPT-Plus/"/>
     
-    <category term="账号购买" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/ChatGPT/ChatGPT-Plus/%E8%B4%A6%E5%8F%B7%E8%B4%AD%E4%B9%B0/"/>
+    <category term="账号购买" scheme="https://oai-chatgpt.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/ChatGPT/ChatGPT-Plus/%E8%B4%A6%E5%8F%B7%E8%B4%AD%E4%B9%B0/"/>
     
     
-    <category term="OpenAI" scheme="https://gpt-openai.github.io/tags/OpenAI/"/>
+    <category term="OpenAI" scheme="https://oai-chatgpt.github.io/tags/OpenAI/"/>
     
-    <category term="ChatGPT账号购买" scheme="https://gpt-openai.github.io/tags/ChatGPT%E8%B4%A6%E5%8F%B7%E8%B4%AD%E4%B9%B0/"/>
+    <category term="ChatGPT账号购买" scheme="https://oai-chatgpt.github.io/tags/ChatGPT%E8%B4%A6%E5%8F%B7%E8%B4%AD%E4%B9%B0/"/>
     
-    <category term="ChatGPT账号注册" scheme="https://gpt-openai.github.io/tags/ChatGPT%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C/"/>
+    <category term="ChatGPT账号注册" scheme="https://oai-chatgpt.github.io/tags/ChatGPT%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C/"/>
     
-    <category term="GPT账号购买" scheme="https://gpt-openai.github.io/tags/GPT%E8%B4%A6%E5%8F%B7%E8%B4%AD%E4%B9%B0/"/>
+    <category term="GPT账号购买" scheme="https://oai-chatgpt.github.io/tags/GPT%E8%B4%A6%E5%8F%B7%E8%B4%AD%E4%B9%B0/"/>
     
-    <category term="GPT账号注册" scheme="https://gpt-openai.github.io/tags/GPT%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C/"/>
+    <category term="GPT账号注册" scheme="https://oai-chatgpt.github.io/tags/GPT%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C/"/>
     
-    <category term="GPT" scheme="https://gpt-openai.github.io/tags/GPT/"/>
+    <category term="GPT" scheme="https://oai-chatgpt.github.io/tags/GPT/"/>
     
-    <category term="GPT Plus" scheme="https://gpt-openai.github.io/tags/GPT-Plus/"/>
+    <category term="GPT Plus" scheme="https://oai-chatgpt.github.io/tags/GPT-Plus/"/>
     
-    <category term="ChatGPT" scheme="https://gpt-openai.github.io/tags/ChatGPT/"/>
+    <category term="ChatGPT" scheme="https://oai-chatgpt.github.io/tags/ChatGPT/"/>
     
-    <category term="ChatGPT Plus" scheme="https://gpt-openai.github.io/tags/ChatGPT-Plus/"/>
+    <category term="ChatGPT Plus" scheme="https://oai-chatgpt.github.io/tags/ChatGPT-Plus/"/>
     
-    <category term="ChatGPT Plus升级" scheme="https://gpt-openai.github.io/tags/ChatGPT-Plus%E5%8D%87%E7%BA%A7/"/>
+    <category term="ChatGPT Plus升级" scheme="https://oai-chatgpt.github.io/tags/ChatGPT-Plus%E5%8D%87%E7%BA%A7/"/>
     
-    <category term="OpenAI账号" scheme="https://gpt-openai.github.io/tags/OpenAI%E8%B4%A6%E5%8F%B7/"/>
+    <category term="OpenAI账号" scheme="https://oai-chatgpt.github.io/tags/OpenAI%E8%B4%A6%E5%8F%B7/"/>
     
   </entry>
   
   <entry>
     <title>OpenAI&#39;s人工智能 - ChatGPT</title>
-    <link href="https://gpt-openai.github.io/cognition-chatgpt/"/>
-    <id>https://gpt-openai.github.io/cognition-chatgpt/</id>
+    <link href="https://oai-chatgpt.github.io/cognition-chatgpt/"/>
+    <id>https://oai-chatgpt.github.io/cognition-chatgpt/</id>
     <published>2024-06-28T04:00:00.000Z</published>
     <updated>2024-06-29T10:35:20.044Z</updated>
     
@@ -79,29 +79,29 @@
     
     
     
-    <category term="科技" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/"/>
+    <category term="科技" scheme="https://oai-chatgpt.github.io/categories/%E7%A7%91%E6%8A%80/"/>
     
-    <category term="人工智能" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    <category term="人工智能" scheme="https://oai-chatgpt.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
     
-    <category term="ChatGPT" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/ChatGPT/"/>
+    <category term="ChatGPT" scheme="https://oai-chatgpt.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/ChatGPT/"/>
     
     
-    <category term="OpenAI" scheme="https://gpt-openai.github.io/tags/OpenAI/"/>
+    <category term="OpenAI" scheme="https://oai-chatgpt.github.io/tags/OpenAI/"/>
     
-    <category term="GPT" scheme="https://gpt-openai.github.io/tags/GPT/"/>
+    <category term="GPT" scheme="https://oai-chatgpt.github.io/tags/GPT/"/>
     
-    <category term="ChatGPT" scheme="https://gpt-openai.github.io/tags/ChatGPT/"/>
+    <category term="ChatGPT" scheme="https://oai-chatgpt.github.io/tags/ChatGPT/"/>
     
-    <category term="AI研究" scheme="https://gpt-openai.github.io/tags/AI%E7%A0%94%E7%A9%B6/"/>
+    <category term="AI研究" scheme="https://oai-chatgpt.github.io/tags/AI%E7%A0%94%E7%A9%B6/"/>
     
-    <category term="深度学习" scheme="https://gpt-openai.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    <category term="深度学习" scheme="https://oai-chatgpt.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
   <entry>
     <title>从零开始了解 OpenAI 的发展史</title>
-    <link href="https://gpt-openai.github.io/cognition-openai/"/>
-    <id>https://gpt-openai.github.io/cognition-openai/</id>
+    <link href="https://oai-chatgpt.github.io/cognition-openai/"/>
+    <id>https://oai-chatgpt.github.io/cognition-openai/</id>
     <published>2024-06-28T04:00:00.000Z</published>
     <updated>2024-06-29T10:34:53.438Z</updated>
     
@@ -112,18 +112,18 @@
     
     
     
-    <category term="科技" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/"/>
+    <category term="科技" scheme="https://oai-chatgpt.github.io/categories/%E7%A7%91%E6%8A%80/"/>
     
-    <category term="人工智能" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    <category term="人工智能" scheme="https://oai-chatgpt.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
     
     
-    <category term="OpenAI" scheme="https://gpt-openai.github.io/tags/OpenAI/"/>
+    <category term="OpenAI" scheme="https://oai-chatgpt.github.io/tags/OpenAI/"/>
     
-    <category term="AI研究" scheme="https://gpt-openai.github.io/tags/AI%E7%A0%94%E7%A9%B6/"/>
+    <category term="AI研究" scheme="https://oai-chatgpt.github.io/tags/AI%E7%A0%94%E7%A9%B6/"/>
     
-    <category term="深度学习" scheme="https://gpt-openai.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    <category term="深度学习" scheme="https://oai-chatgpt.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="GPT-4" scheme="https://gpt-openai.github.io/tags/GPT-4/"/>
+    <category term="GPT-4" scheme="https://oai-chatgpt.github.io/tags/GPT-4/"/>
     
   </entry>
   
