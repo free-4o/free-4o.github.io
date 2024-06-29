@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://oai-chatgpt.github.io/archives/index.html</loc>
+    <loc>https://gpt-openai.github.io/register-chatgpt/</loc>
     
     <lastmod>2024-06-29</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/categories/index.html</loc>
+    <loc>https://gpt-openai.github.io/cognition-chatgpt/</loc>
     
     <lastmod>2024-06-29</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/tags/index.html</loc>
+    <loc>https://gpt-openai.github.io/cognition-openai/</loc>
     
     <lastmod>2024-06-29</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/chatgpt-buy/</loc>
+    <loc>https://gpt-openai.github.io/chatgpt-buy/</loc>
     
     <lastmod>2024-06-29</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/cognition-chatgpt/</loc>
+    <loc>https://gpt-openai.github.io/archives/index.html</loc>
     
     <lastmod>2024-06-29</lastmod>
     
@@ -47,7 +47,16 @@
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/cognition-openai/</loc>
+    <loc>https://gpt-openai.github.io/categories/index.html</loc>
+    
+    <lastmod>2024-06-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gpt-openai.github.io/tags/index.html</loc>
     
     <lastmod>2024-06-29</lastmod>
     
@@ -57,7 +66,7 @@
   
 
   <url>
-    <loc>https://oai-chatgpt.github.io/</loc>
+    <loc>https://gpt-openai.github.io/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -65,98 +74,119 @@
 
   
   <url>
-    <loc>https://oai-chatgpt.github.io/tags/OpenAI/</loc>
+    <loc>https://gpt-openai.github.io/tags/OpenAI/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/tags/AI%E7%A0%94%E7%A9%B6/</loc>
+    <loc>https://gpt-openai.github.io/tags/ChatGPT%E8%B4%A6%E5%8F%B7%E8%B4%AD%E4%B9%B0/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://gpt-openai.github.io/tags/ChatGPT%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/tags/GPT/</loc>
+    <loc>https://gpt-openai.github.io/tags/GPT%E8%B4%A6%E5%8F%B7%E8%B4%AD%E4%B9%B0/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/tags/ChatGPT/</loc>
+    <loc>https://gpt-openai.github.io/tags/GPT%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/tags/ChatGPT%E8%B4%A6%E5%8F%B7%E8%B4%AD%E4%B9%B0/</loc>
+    <loc>https://gpt-openai.github.io/tags/GPT/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/tags/ChatGPT%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C/</loc>
+    <loc>https://gpt-openai.github.io/tags/GPT-Plus/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/tags/GPT%E8%B4%A6%E5%8F%B7%E8%B4%AD%E4%B9%B0/</loc>
+    <loc>https://gpt-openai.github.io/tags/ChatGPT/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/tags/GPT%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C/</loc>
+    <loc>https://gpt-openai.github.io/tags/ChatGPT-Plus/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/tags/GPT-Plus/</loc>
+    <loc>https://gpt-openai.github.io/tags/ChatGPT-Plus%E5%8D%87%E7%BA%A7/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/tags/ChatGPT-Plus/</loc>
+    <loc>https://gpt-openai.github.io/tags/OpenAI%E8%B4%A6%E5%8F%B7/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/tags/ChatGPT-Plus%E5%8D%87%E7%BA%A7/</loc>
+    <loc>https://gpt-openai.github.io/tags/AI%E7%A0%94%E7%A9%B6/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/tags/OpenAI%E8%B4%A6%E5%8F%B7/</loc>
+    <loc>https://gpt-openai.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/tags/GPT-4/</loc>
+    <loc>https://gpt-openai.github.io/tags/GPT-4/</loc>
+    <lastmod>2024-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gpt-openai.github.io/tags/ChatGPT%E8%B4%A6%E5%8F%B7/</loc>
+    <lastmod>2024-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gpt-openai.github.io/tags/GPT-4o/</loc>
+    <lastmod>2024-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gpt-openai.github.io/tags/%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -165,35 +195,70 @@
 
   
   <url>
-    <loc>https://oai-chatgpt.github.io/categories/%E7%A7%91%E6%8A%80/</loc>
+    <loc>https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</loc>
+    <loc>https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/ChatGPT/</loc>
+    <loc>https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/OpenAI/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/ChatGPT/ChatGPT-Plus/</loc>
+    <loc>https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/OpenAI/AI/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://oai-chatgpt.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/ChatGPT/ChatGPT-Plus/%E8%B4%A6%E5%8F%B7%E8%B4%AD%E4%B9%B0/</loc>
+    <loc>https://gpt-openai.github.io/categories/ChatGPT/</loc>
+    <lastmod>2024-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gpt-openai.github.io/categories/ChatGPT/ChatGPT-Plus/</loc>
+    <lastmod>2024-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gpt-openai.github.io/categories/ChatGPT/ChatGPT-Plus/GPT-4o/</loc>
+    <lastmod>2024-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gpt-openai.github.io/categories/ChatGPT/ChatGPT-Plus/%E8%B4%A6%E5%8F%B7%E8%B4%AD%E4%B9%B0/</loc>
+    <lastmod>2024-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gpt-openai.github.io/categories/%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C/</loc>
+    <lastmod>2024-06-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gpt-openai.github.io/categories/ChatGPT/ChatGPT-Plus/%E8%B4%A6%E5%8F%B7%E8%B4%AD%E4%B9%B0/WhaleAI/</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -1,46 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>OpenAI&#39;s人工智能 - ChatGPT</title>
-    <url>/cognition-chatgpt/</url>
-    <content><![CDATA[<h1 id="ChatGPT"><a href="#ChatGPT" class="headerlink" title="ChatGPT"></a>ChatGPT</h1><p>(OpenAI官网)[<a href="https://chatgpt.com]">https://chatgpt.com]</a></p>
-<blockquote>
-<p>ChatGPT，全称聊天生成预训练转换器（英语：Chat Generative Pre-trained Transformer），是<a href="/cognition-openai/" title="从零开始了解 OpenAI 的发展史">OpenAI</a> 开发的人工智能聊天机器人程序，于2022年12月推出。该程序使用基于GPT-3.5、GPT-4、GPT-4o架构的大型语言模型并以强化学习训练。ChatGPT目前仍以文字方式交互，而除了可以用人类自然对话方式来交互，还可以用于甚为复杂的语言工作，包括自动生成文本、自动问答、自动摘要等多种任务。如：在自动文本生成方面，ChatGPT可以根据输入的文本自动生成类似的文本（剧本、歌曲、企划等），在自动问答方面，ChatGPT可以根据输入的问题自动生成答案。还有编写和调试计算机程序的能力。</p>
-</blockquote>
-<h2 id="训练"><a href="#训练" class="headerlink" title="训练"></a>训练</h2><p>OpenAI从ChatGPT用户那里收集数据，这些数据可用于加强训练和微调ChatGPT。</p>
-<h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><p>虽然聊天机器人的核心功能是模仿人类对话者，但ChatGPT用途广泛，例如可以编写信件；有编写和调试计算机程序的能力；创作音乐、电视剧、童话故事和学生论文；回答测试问题（在某些测试情境下，水平高于普通人类测试者）；写诗和歌词；模拟Linux系统等。ChatGPT的训练数据包括各种文档以及关于互联网、编程语言等各类知识，如BBS和Python编程语言。</p>
-<h2 id="局限"><a href="#局限" class="headerlink" title="局限"></a>局限</h2><p>ChatGPT也有多种局限，OpenAI承认ChatGPT“有时会写出看似合理但不正确或荒谬的答案”，在大语言模型中很常见，称作人工智能幻觉。其奖励模型围绕人类监督而设计，可能导致过度优化，从而影响性能（古德哈特定律）。Steven Johnson认为原因是聊天机器人的目标不是追求绝对的真理或准确性，而是尽量根据给定的上下文和概率来产生合理的回答。2020年上线时，ChatGPT对2019年9月之后发生的事件知之甚少。据BBC报道，截至2022年12月，ChatGPT不可以“表达政治观点或从事政治活动”。但研究表明，ChatGPT对两个投票建议应用程序的政治声明表明立场时，表现出亲环境主义。训练过程中，不管实际理解或事实内容如何，审核者都会偏好更长的答案。训练数据也有算法偏差，可能会在向ChatGPT问及人物描述时显现出来。有用户发现ChatGPT在解决较为复杂的题目（如求方程式的切线）时会给出错误答案，并且会在解一元一次方程式时陷入循环。</p>
-<h2 id="偏差"><a href="#偏差" class="headerlink" title="偏差"></a>偏差</h2><p>ChatGPT可能会受到训练数据中不同观点的分布影响，偏向于一些更普遍的观点，影响了模型输出的多样性。比如，当提示词中出现首席执行官之类的模糊描述时可能会假设此人是白人男性。</p>
-<h2 id="服务"><a href="#服务" class="headerlink" title="服务"></a>服务</h2><h3 id="基本服务"><a href="#基本服务" class="headerlink" title="基本服务"></a>基本服务</h3><p>ChatGPT于2022年11月30日由总部位于旧金山的OpenAI推出。该服务最初是免费向公众推出，并计划以后用该服务获利。到12月4日，OpenAI估计ChatGPT已有超过一百万用户。2023年1月，ChatGPT的用户数超过1亿，成为该时间段内增长最快的消费者应用程序。</p>
-<p>2022年12月15日，全国广播公司商业频道写道，该服务“仍然不时发生故障”。该服务在英语中效果最好，也能使用部分其他语言，但效果不一。与其他备受瞩目的AI进展不同，截至2022年12月，还没有关于ChatGPT的经同行评审的官方技术论文。</p>
-<p>2023年2月7日，微软利用与OpenAI的合作关系，推出了必应 AI的预览版，宣传其为“新的下一代OpenAI大型语言模型，比ChatGPT更强大，并专门为搜索定制”。</p>
-<a href="/chatgpt-buy/" title="OpenAI ChatGPT账号购买 ChatGPT Plus升级订阅">ChatGPT账号购买</a>
-
-<h3 id="ChatGPT-Plus优质服务"><a href="#ChatGPT-Plus优质服务" class="headerlink" title="ChatGPT Plus优质服务"></a>ChatGPT Plus优质服务</h3><p>OpenAI推出ChatGPT专业版计划（ChatGPT Plus），每月收费20美元，该计划正逐步面向更多国家推出，需求较低时可使用免费版。</p>
-<p>2023年3月12日，OpenAI发布多模态模型GPT-4，并计划推出图像输入功能。免费用户可通过申请API或升级为plus用户使用GPT-4服务。</p>
-<p>2023年7月，OpenAI使其专有的Advanced Data Analysis功能对ChatGPT Plus的所有订阅者都可用。Advanced Data Analysis提供了广泛的功能，包括数据分析和解释、即时数据格式化、个人数据科学家服务、创意解决方案、音乐品味分析、视频编辑和文件上传&#x2F;下载与图像提取。2023年9月底，新增对话、图像识功能。2023年10月，新增了DALLE-3图像生成功能。</p>
-<p>2023年11月，OpenAI在其开发者召开会上公布两个重要消息：推出的聊天机器人创建工具GPT和ChatGPT的新模型GPT-4 Turbo。</p>
-<p>2024年5月13日,OpenAI宣布多语言、多模态GPT大型语言模型GPT-4o。该模型比其前身GPT-4快两倍，而价格仅为其50%。OpenAI演示了与ChatGPT的语音对话，以获得解决数学问题的实时说明、讲述睡前故事并获得编码建议。免费ChatGPT用户将可以与新的GPT-4o模型进行有限次数的交互，然后该工具会自动恢复依赖旧的GPT-3.5模型；付费用户将可以使用最新GPT-4o访问更多数量的消息。</p>
-<a href="/chatgpt-buy/" title="OpenAI ChatGPT账号购买 ChatGPT Plus升级订阅">ChatGPT Plus购买</a>
-
-<h3 id="移动应用"><a href="#移动应用" class="headerlink" title="移动应用"></a>移动应用</h3><p>2023年5月18日，OpenAI发布适用于iOS平台的ChatGPT APP。APP目前已在App Store美国区上架，目前已扩展至其他国家和地区。</p>
-<p>适用于Android平台的版本于2023年7月25日推出，Android版ChatGPT目前可在阿根廷、孟加拉国、巴西、加拿大、法国、德国、印度、印度尼西亚、爱尔兰、日本、墨西哥、尼日利亚、菲律宾、韩国、英国和美国下载。</p>
-<h3 id="电脑应用"><a href="#电脑应用" class="headerlink" title="电脑应用"></a>电脑应用</h3><p>目前OpenAI已经正式发布Mac端的ChatGPT App，但是目前仅限于M系列的Mac电脑，Intel的暂时没有推出，可以继续使用web版，Windows版将在年内发布。<br>(下载Mac端ChatGPT)[<a href="https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_latest.dmg]">https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_latest.dmg]</a></p>
-]]></content>
-      <categories>
-        <category>科技</category>
-        <category>人工智能</category>
-        <category>ChatGPT</category>
-      </categories>
-      <tags>
-        <tag>OpenAI</tag>
-        <tag>AI研究</tag>
-        <tag>深度学习</tag>
-        <tag>GPT</tag>
-        <tag>ChatGPT</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>OpenAI ChatGPT账号购买 ChatGPT Plus升级订阅</title>
     <url>/chatgpt-buy/</url>
     <content><![CDATA[<h1 id="OpenAI-ChatGPT账号购买-ChatGPT-Plus升级订阅"><a href="#OpenAI-ChatGPT账号购买-ChatGPT-Plus升级订阅" class="headerlink" title="OpenAI ChatGPT账号购买 ChatGPT Plus升级订阅"></a>OpenAI ChatGPT账号购买 ChatGPT Plus升级订阅</h1><p>购买地址：<a href="https://whaleai.cc/">whaleai.cc</a></p>
@@ -72,22 +32,69 @@
       <categories>
         <category>科技</category>
         <category>人工智能</category>
+        <category>OpenAI</category>
+        <category>AI</category>
         <category>ChatGPT</category>
         <category>ChatGPT Plus</category>
         <category>账号购买</category>
+        <category>WhaleAI</category>
+      </categories>
+      <tags>
+        <tag>OpenAI</tag>
+        <tag>ChatGPT账号购买</tag>
+        <tag>ChatGPT账号注册</tag>
+        <tag>GPT账号购买</tag>
+        <tag>GPT账号注册</tag>
+        <tag>GPT</tag>
+        <tag>GPT Plus</tag>
+        <tag>ChatGPT</tag>
+        <tag>ChatGPT Plus</tag>
+        <tag>ChatGPT Plus升级</tag>
+        <tag>OpenAI账号</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>OpenAI&#39;s人工智能 - ChatGPT</title>
+    <url>/cognition-chatgpt/</url>
+    <content><![CDATA[<h1 id="ChatGPT"><a href="#ChatGPT" class="headerlink" title="ChatGPT"></a>ChatGPT</h1><p>(OpenAI官网)[<a href="https://chatgpt.com]">https://chatgpt.com]</a></p>
+<blockquote>
+<p>ChatGPT，全称聊天生成预训练转换器（英语：Chat Generative Pre-trained Transformer），是<a href="/cognition-openai/" title="从零开始了解 OpenAI 的发展史">OpenAI</a> 开发的人工智能聊天机器人程序，于2022年12月推出。该程序使用基于GPT-3.5、GPT-4、GPT-4o架构的大型语言模型并以强化学习训练。ChatGPT目前仍以文字方式交互，而除了可以用人类自然对话方式来交互，还可以用于甚为复杂的语言工作，包括自动生成文本、自动问答、自动摘要等多种任务。如：在自动文本生成方面，ChatGPT可以根据输入的文本自动生成类似的文本（剧本、歌曲、企划等），在自动问答方面，ChatGPT可以根据输入的问题自动生成答案。还有编写和调试计算机程序的能力。</p>
+</blockquote>
+<h2 id="训练"><a href="#训练" class="headerlink" title="训练"></a>训练</h2><p>OpenAI从ChatGPT用户那里收集数据，这些数据可用于加强训练和微调ChatGPT。</p>
+<h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><p>虽然聊天机器人的核心功能是模仿人类对话者，但ChatGPT用途广泛，例如可以编写信件；有编写和调试计算机程序的能力；创作音乐、电视剧、童话故事和学生论文；回答测试问题（在某些测试情境下，水平高于普通人类测试者）；写诗和歌词；模拟Linux系统等。ChatGPT的训练数据包括各种文档以及关于互联网、编程语言等各类知识，如BBS和Python编程语言。</p>
+<h2 id="局限"><a href="#局限" class="headerlink" title="局限"></a>局限</h2><p>ChatGPT也有多种局限，OpenAI承认ChatGPT“有时会写出看似合理但不正确或荒谬的答案”，在大语言模型中很常见，称作人工智能幻觉。其奖励模型围绕人类监督而设计，可能导致过度优化，从而影响性能（古德哈特定律）。Steven Johnson认为原因是聊天机器人的目标不是追求绝对的真理或准确性，而是尽量根据给定的上下文和概率来产生合理的回答。2020年上线时，ChatGPT对2019年9月之后发生的事件知之甚少。据BBC报道，截至2022年12月，ChatGPT不可以“表达政治观点或从事政治活动”。但研究表明，ChatGPT对两个投票建议应用程序的政治声明表明立场时，表现出亲环境主义。训练过程中，不管实际理解或事实内容如何，审核者都会偏好更长的答案。训练数据也有算法偏差，可能会在向ChatGPT问及人物描述时显现出来。有用户发现ChatGPT在解决较为复杂的题目（如求方程式的切线）时会给出错误答案，并且会在解一元一次方程式时陷入循环。</p>
+<h2 id="偏差"><a href="#偏差" class="headerlink" title="偏差"></a>偏差</h2><p>ChatGPT可能会受到训练数据中不同观点的分布影响，偏向于一些更普遍的观点，影响了模型输出的多样性。比如，当提示词中出现首席执行官之类的模糊描述时可能会假设此人是白人男性。</p>
+<h2 id="服务"><a href="#服务" class="headerlink" title="服务"></a>服务</h2><h3 id="基本服务"><a href="#基本服务" class="headerlink" title="基本服务"></a>基本服务</h3><p>ChatGPT于2022年11月30日由总部位于旧金山的OpenAI推出。该服务最初是免费向公众推出，并计划以后用该服务获利。到12月4日，OpenAI估计ChatGPT已有超过一百万用户。2023年1月，ChatGPT的用户数超过1亿，成为该时间段内增长最快的消费者应用程序。</p>
+<p>2022年12月15日，全国广播公司商业频道写道，该服务“仍然不时发生故障”。该服务在英语中效果最好，也能使用部分其他语言，但效果不一。与其他备受瞩目的AI进展不同，截至2022年12月，还没有关于ChatGPT的经同行评审的官方技术论文。</p>
+<p>2023年2月7日，微软利用与OpenAI的合作关系，推出了必应 AI的预览版，宣传其为“新的下一代OpenAI大型语言模型，比ChatGPT更强大，并专门为搜索定制”。</p>
+<a href="/chatgpt-buy/" title="OpenAI ChatGPT账号购买 ChatGPT Plus升级订阅">ChatGPT账号购买</a>
+
+<h3 id="ChatGPT-Plus优质服务"><a href="#ChatGPT-Plus优质服务" class="headerlink" title="ChatGPT Plus优质服务"></a>ChatGPT Plus优质服务</h3><p>OpenAI推出ChatGPT专业版计划（ChatGPT Plus），每月收费20美元，该计划正逐步面向更多国家推出，需求较低时可使用免费版。</p>
+<p>2023年3月12日，OpenAI发布多模态模型GPT-4，并计划推出图像输入功能。免费用户可通过申请API或升级为plus用户使用GPT-4服务。</p>
+<p>2023年7月，OpenAI使其专有的Advanced Data Analysis功能对ChatGPT Plus的所有订阅者都可用。Advanced Data Analysis提供了广泛的功能，包括数据分析和解释、即时数据格式化、个人数据科学家服务、创意解决方案、音乐品味分析、视频编辑和文件上传&#x2F;下载与图像提取。2023年9月底，新增对话、图像识功能。2023年10月，新增了DALLE-3图像生成功能。</p>
+<p>2023年11月，OpenAI在其开发者召开会上公布两个重要消息：推出的聊天机器人创建工具GPT和ChatGPT的新模型GPT-4 Turbo。</p>
+<p>2024年5月13日,OpenAI宣布多语言、多模态GPT大型语言模型GPT-4o。该模型比其前身GPT-4快两倍，而价格仅为其50%。OpenAI演示了与ChatGPT的语音对话，以获得解决数学问题的实时说明、讲述睡前故事并获得编码建议。免费ChatGPT用户将可以与新的GPT-4o模型进行有限次数的交互，然后该工具会自动恢复依赖旧的GPT-3.5模型；付费用户将可以使用最新GPT-4o访问更多数量的消息。</p>
+<a href="/chatgpt-buy/" title="OpenAI ChatGPT账号购买 ChatGPT Plus升级订阅">ChatGPT Plus购买</a>
+
+<h3 id="移动应用"><a href="#移动应用" class="headerlink" title="移动应用"></a>移动应用</h3><p>2023年5月18日，OpenAI发布适用于iOS平台的ChatGPT APP。APP目前已在App Store美国区上架，目前已扩展至其他国家和地区。</p>
+<p>适用于Android平台的版本于2023年7月25日推出，Android版ChatGPT目前可在阿根廷、孟加拉国、巴西、加拿大、法国、德国、印度、印度尼西亚、爱尔兰、日本、墨西哥、尼日利亚、菲律宾、韩国、英国和美国下载。</p>
+<h3 id="电脑应用"><a href="#电脑应用" class="headerlink" title="电脑应用"></a>电脑应用</h3><p>目前OpenAI已经正式发布Mac端的ChatGPT App，但是目前仅限于M系列的Mac电脑，Intel的暂时没有推出，可以继续使用web版，Windows版将在年内发布。<br>(下载Mac端ChatGPT)[<a href="https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_latest.dmg]">https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_latest.dmg]</a></p>
+]]></content>
+      <categories>
+        <category>科技</category>
+        <category>人工智能</category>
+        <category>OpenAI</category>
+        <category>AI</category>
+        <category>ChatGPT</category>
+        <category>ChatGPT Plus</category>
       </categories>
       <tags>
         <tag>OpenAI</tag>
         <tag>GPT</tag>
         <tag>ChatGPT</tag>
-        <tag>ChatGPT账号购买</tag>
-        <tag>ChatGPT账号注册</tag>
-        <tag>GPT账号购买</tag>
-        <tag>GPT账号注册</tag>
-        <tag>GPT Plus</tag>
         <tag>ChatGPT Plus</tag>
-        <tag>ChatGPT Plus升级</tag>
-        <tag>OpenAI账号</tag>
+        <tag>AI研究</tag>
+        <tag>深度学习</tag>
       </tags>
   </entry>
   <entry>
@@ -146,12 +153,74 @@
       <categories>
         <category>科技</category>
         <category>人工智能</category>
+        <category>OpenAI</category>
+        <category>AI</category>
       </categories>
       <tags>
         <tag>OpenAI</tag>
         <tag>AI研究</tag>
         <tag>深度学习</tag>
         <tag>GPT-4</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024年最新如何注册ChatGPT账号并开启免费GPT-4o以及申请API Key教程</title>
+    <url>/register-chatgpt/</url>
+    <content><![CDATA[<h1 id="2024年最新如何注册ChatGPT教程"><a href="#2024年最新如何注册ChatGPT教程" class="headerlink" title="2024年最新如何注册ChatGPT教程"></a>2024年最新如何注册ChatGPT教程</h1><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ol>
+<li>邮箱<blockquote>
+<p>邮箱选择海外邮箱，或者自建邮箱，国内的QQ和163..等等基本都被屏蔽</p>
+</blockquote>
+</li>
+<li>魔法<blockquote>
+<p>ChatGPT禁止了国内用户的访问，需要魔法上网工具 <a href="https://leflycloud.com/#/register?code=Q12cNoOG">LeflyCloud</a>、<a href="https://www.bygcloud.com/#/register?code=wW2vtYJK">白月光</a></p>
+</blockquote>
+</li>
+<li>国外手机号(可选)<blockquote>
+<p>如果你是开发人员需要用到API那么需要验证手机号，如果非开发人员可以忽略</p>
+</blockquote>
+</li>
+</ol>
+<p>如果觉得注册麻烦可以直接购买成品号，购买地址：<a href="https://whaleai.cc/">whaleai.cc</a> 成品号都是绑定过海外手机号的。</p>
+<h2 id="注册"><a href="#注册" class="headerlink" title="注册"></a>注册</h2><ol>
+<li>打开魔法工具的代理，尽量选择美国节点。（上述推荐的魔法工具，均提供教程）</li>
+<li>打开ChatGPT官网 <a href="https://chatgpt.com/">https://chatgpt.com</a> 点击<strong>注册</strong> <img data-src="/register-chatgpt/register-01.png" alt="点击注册"></li>
+<li>输入自己的邮箱地址(请勿使用国内的邮箱,可以使用自建的邮箱) <img data-src="/register-chatgpt/register-02.png" alt="输入邮箱和密码"> <img data-src="/register-chatgpt/register-03.png" alt="点击继续"></li>
+<li>然后请根据提示，前往你的邮箱获取验证链接，并点击验证。<img data-src="/register-chatgpt/register-04.png" alt="获取验证"> <img data-src="/register-chatgpt/register-05.png" alt="点击验证"></li>
+<li>输入你的用户昵称和生日，这里的生日一定要<strong>成年！！！！!</strong> <a href="register-07.png">获取验证</a></li>
+<li>然后点击<strong>好的，开始吧</strong>，<strong>继续</strong>，在出现的GPT-4o简介，记得一定要点击<strong>立即试用</strong>（否则此账号以后无法使用免费的4o）<img data-src="/register-chatgpt/register-08.png" alt="好的，开始吧"> <img data-src="/register-chatgpt/register-09.png" alt="继续"> <img data-src="/register-chatgpt/register-10.png" alt="立即试用"></li>
+<li>到此注册就已经结束了，下面的教程针对需要使用<strong>API</strong>的用户，绑定手机号，获取创建API的权限，不使用API的下面不需要看</li>
+</ol>
+<h2 id="绑定手机（可选）"><a href="#绑定手机（可选）" class="headerlink" title="绑定手机（可选）"></a>绑定手机（可选）</h2><ol>
+<li>打开<a href="https://platform.openai.com/api-keys">platform</a>,点击右上角的<strong>Start verification</strong> <img data-src="/register-chatgpt/register-11.png" alt="验证"></li>
+<li>在新的<strong>标签页</strong>打开 <a href="https://sms-activate.io/?ref=7598007">接码平台</a> 点击注册，输入自己的邮箱注册即可(国内邮箱可用) <img data-src="/register-chatgpt/register-12.png" alt="注册"></li>
+<li>注册成功后，点击右上角的 ➕ 充值余额，找到并选择支付宝，最低充值2美金 <img data-src="/register-chatgpt/register-13.png" alt="充值"> <img data-src="/register-chatgpt/register-14.png" alt="支付宝"> <img data-src="/register-chatgpt/register-15.png" alt="2美金"></li>
+<li>充值成功后，返回首页，选择菜单键，输入<strong>OpenAI</strong>，在下方选择价格升序，选择一个最便宜的号码，点击加购！<img data-src="/register-chatgpt/register-16.png" alt="菜单"> <img data-src="/register-chatgpt/register-17.png" alt="选择OpenAI"> <img data-src="/register-chatgpt/register-18.png" alt="购买号码"></li>
+<li>复制号码，打开第一步的标签页，在里面输入手机号，这里需要手动选择号码的国家！！然后把号码粘贴进去，点击<strong>Send Code</strong> <img data-src="/register-chatgpt/register-19.png" alt="复制号码"> <img data-src="/register-chatgpt/register-20.png" alt="输入号码"></li>
+<li>如果报错，基本上都是号码问题，返回<strong>接码平台</strong>进行更换手机号，注意右上角的时间，尽快操作！<img data-src="/register-chatgpt/register-21.png" alt="报错"> <img data-src="/register-chatgpt/register-22.png" alt="更换号码"></li>
+<li>号码可以使用时，会告诉你让你输入验证码，这个时候去<strong>接码平台</strong>等待验证码即可。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>科技</category>
+        <category>人工智能</category>
+        <category>OpenAI</category>
+        <category>AI</category>
+        <category>ChatGPT</category>
+        <category>ChatGPT Plus</category>
+        <category>GPT-4o</category>
+        <category>账号注册</category>
+      </categories>
+      <tags>
+        <tag>OpenAI</tag>
+        <tag>ChatGPT账号注册</tag>
+        <tag>GPT</tag>
+        <tag>ChatGPT</tag>
+        <tag>ChatGPT Plus</tag>
+        <tag>AI研究</tag>
+        <tag>深度学习</tag>
+        <tag>ChatGPT账号</tag>
+        <tag>GPT-4o</tag>
+        <tag>免费账号</tag>
       </tags>
   </entry>
 </search>
