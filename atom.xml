@@ -3,11 +3,11 @@
   <title>WhaleAI - ChatGPT中文网</title>
   
   <subtitle>免费ChatGPT资源与指南</subtitle>
-  <link href="https://oai-chatgpt.github.io/atom.xml" rel="self"/>
+  <link href="https://gpt-openai.github.io/atom.xml" rel="self"/>
   
-  <link href="https://oai-chatgpt.github.io/"/>
-  <updated>2024-06-28T15:33:06.869Z</updated>
-  <id>https://oai-chatgpt.github.io/</id>
+  <link href="https://gpt-openai.github.io/"/>
+  <updated>2024-06-29T10:36:24.720Z</updated>
+  <id>https://gpt-openai.github.io/</id>
   
   <author>
     <name>WhaleAI</name>
@@ -17,31 +17,113 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>从零开始了解 OpenAI 的发展史</title>
-    <link href="https://oai-chatgpt.github.io/cognition-openai/"/>
-    <id>https://oai-chatgpt.github.io/cognition-openai/</id>
+    <title>OpenAI ChatGPT账号购买 ChatGPT Plus升级订阅</title>
+    <link href="https://gpt-openai.github.io/chatgpt-buy/"/>
+    <id>https://gpt-openai.github.io/chatgpt-buy/</id>
     <published>2024-06-28T04:00:00.000Z</published>
-    <updated>2024-06-28T15:33:06.869Z</updated>
+    <updated>2024-06-29T10:36:24.720Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="成立时间"><a href="#成立时间" class="headerlink" title="成立时间"></a>成立时间</h2><p>2015年12月11日，8年前</p><h2 id="命名缘由"><a href="#命名缘由" class="headerlink" title="命名缘由"></a>命名缘由</h2><p>开放、人工智能</p><h2 id="创始人"><a href="#创始人" class="headerlink" title="创始人"></a>创始人</h2><ul><li>萨姆·阿尔特曼</li><li>伊尔亚·苏茨克维</li><li>格雷格·布罗克曼</li><li>沃伊切赫·萨伦巴</li><li>伊隆·马斯克 - 起名者 [同样也是特斯拉的创始人]</li><li>约翰·舒曼</li><li>安德烈·卡帕斯</li></ul><h2 id="产品"><a href="#产品" class="headerlink" title="产品"></a>产品</h2><ul><li>OpenAI Five</li><li>GPT-1, 2, 3, 4</li><li>DALL-E</li><li>OpenAI Codex</li><li>ChatGPT</li><li>Sora</li></ul><p>OpenAI，中国大陆译为开放人工智能研究中心，是一个美国人工智能研究实验室，由非营利组织OpenAI Inc和其营利组织子公司OpenAI LP所组成。OpenAI进行AI研究的目的是促进和发展友好的人工智能，使人类整体受益。OpenAI系统运行在微软基于Azure的超级计算平台上。</p><h3 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h3><h4 id="2015–2018年：作为非营利机构起步"><a href="#2015–2018年：作为非营利机构起步" class="headerlink" title="2015–2018年：作为非营利机构起步"></a>2015–2018年：作为非营利机构起步</h4><p>OpenAI最初作为非营利机构成立，专注于人工智能研究，以造福全人类为目标。</p><h4 id="2019年：向营利性公司转型"><a href="#2019年：向营利性公司转型" class="headerlink" title="2019年：向营利性公司转型"></a>2019年：向营利性公司转型</h4><p>OpenAI转型为营利性公司，以吸引更多资源并加快其研究和开发进程。</p><h4 id="2020年至今：ChatGPT、Sora、DALL-E以及与微软的合作伙伴关系"><a href="#2020年至今：ChatGPT、Sora、DALL-E以及与微软的合作伙伴关系" class="headerlink" title="2020年至今：ChatGPT、Sora、DALL-E以及与微软的合作伙伴关系"></a>2020年至今：ChatGPT、Sora、DALL-E以及与微软的合作伙伴关系</h4><p>推出了多项具有里程碑意义的产品，并与微软建立了战略合作伙伴关系。</p><h3 id="产品与应用"><a href="#产品与应用" class="headerlink" title="产品与应用"></a>产品与应用</h3><h4 id="Gym"><a href="#Gym" class="headerlink" title="Gym"></a>Gym</h4><p>用于强化学习研究的平台。</p><h4 id="RoboSumo"><a href="#RoboSumo" class="headerlink" title="RoboSumo"></a>RoboSumo</h4><p>一个机器人相扑模拟环境。</p><h4 id="电子游戏机器人和基准测试"><a href="#电子游戏机器人和基准测试" class="headerlink" title="电子游戏机器人和基准测试"></a>电子游戏机器人和基准测试</h4><p>研究和测试AI在电子游戏中的表现。</p><h4 id="OpenAI-Five"><a href="#OpenAI-Five" class="headerlink" title="OpenAI Five"></a>OpenAI Five</h4><p>一个能够在Dota 2中与人类玩家竞争的AI系统。</p><h4 id="GYM-Retro"><a href="#GYM-Retro" class="headerlink" title="GYM Retro"></a>GYM Retro</h4><p>一个用于强化学习的游戏环境。</p><h4 id="Dactyl"><a href="#Dactyl" class="headerlink" title="Dactyl"></a>Dactyl</h4><p>一个用于机器人手的强化学习研究项目。</p><h4 id="API"><a href="#API" class="headerlink" title="API"></a>API</h4><p>提供了AI模型的访问接口，供开发者使用。</p><h3 id="生成式模型"><a href="#生成式模型" class="headerlink" title="生成式模型"></a>生成式模型</h3><h4 id="OpenAI的原始GPT模型"><a href="#OpenAI的原始GPT模型" class="headerlink" title="OpenAI的原始GPT模型"></a>OpenAI的原始GPT模型</h4><p>初代生成预训练模型。</p><h4 id="GPT-2"><a href="#GPT-2" class="headerlink" title="GPT-2"></a>GPT-2</h4><p>2021年2月，GPT-2根据自己的维基百科文章中的提示撰写段落的一个实例。</p><h4 id="GPT-3"><a href="#GPT-3" class="headerlink" title="GPT-3"></a>GPT-3</h4><p>第三代生成预训练模型，显著提升了语言生成能力。</p><h4 id="Codex"><a href="#Codex" class="headerlink" title="Codex"></a>Codex</h4><p>专注于代码生成的模型。</p><h4 id="GPT-4"><a href="#GPT-4" class="headerlink" title="GPT-4"></a>GPT-4</h4><p>最新一代生成预训练模型，进一步提升了性能和能力。</p><h4 id="Sora"><a href="#Sora" class="headerlink" title="Sora"></a>Sora</h4><p>新推出的产品，详细信息待公布。</p><h3 id="用户界面"><a href="#用户界面" class="headerlink" title="用户界面"></a>用户界面</h3><h4 id="MuseNet和Jukebox（音乐）"><a href="#MuseNet和Jukebox（音乐）" class="headerlink" title="MuseNet和Jukebox（音乐）"></a>MuseNet和Jukebox（音乐）</h4><p>用于生成音乐的AI模型。</p><h4 id="Microscope"><a href="#Microscope" class="headerlink" title="Microscope"></a>Microscope</h4><p>一个用于AI研究的可视化工具。</p><h4 id="DALL-E和CLIP（图片）"><a href="#DALL-E和CLIP（图片）" class="headerlink" title="DALL-E和CLIP（图片）"></a>DALL-E和CLIP（图片）</h4><p>用于图像生成和处理的AI模型。</p><h4 id="DALL-E-2"><a href="#DALL-E-2" class="headerlink" title="DALL-E 2"></a>DALL-E 2</h4><p>DALL-E的升级版本，生成能力更强。</p><h3 id="ChatGPT"><a href="#ChatGPT" class="headerlink" title="ChatGPT"></a>ChatGPT</h3><p><a href="https://whaleai.cc/">购买 ChatGPT</a><br>ChatGPT于2022年11月推出，是一种建立在GPT-3之上的人工智能工具，它提供了一个对话界面，允许用户使用自然语言提问。然后系统会在几秒钟内恢复一个答案。ChatGPT在发布5天后就达到了100万用户。</p><h3 id="ChatGPT-Plus"><a href="#ChatGPT-Plus" class="headerlink" title="ChatGPT Plus"></a>ChatGPT Plus</h3><p><a href="https://whaleai.cc/">购买 ChatGPT Plus</a><br>ChatGPT Plus是一项每月$20美元的订阅服务，允许用户在高峰时段访问ChatGPT，提供更快的响应时间，并让用户提前访问新功能。</p><h3 id="ChatGPT插件商店：AI聊天机器人的革命性升级"><a href="#ChatGPT插件商店：AI聊天机器人的革命性升级" class="headerlink" title="ChatGPT插件商店：AI聊天机器人的革命性升级"></a>ChatGPT插件商店：AI聊天机器人的革命性升级</h3><p>人工智能（AI）世界不断发展，使聊天机器人比以往任何时候都更有能力。最近推出的ChatGPT插件商店证明了这一进步，代表了AI聊天机器人的主要游戏规则改变者。这项突破性的创新使ChatGPT能够访问第三方插件，显著增强其功能，并为开发人员和用户等开启了无限可能的世界。</p><h2 id="基本理念"><a href="#基本理念" class="headerlink" title="基本理念"></a>基本理念</h2><p>OpenAI表示，人工智能“应该是人类个体意志的延伸”，“本着自由的精神，在安全的情况下尽可能进行广泛和均匀地分布”。</p><h2 id="对潜在隐患的担忧"><a href="#对潜在隐患的担忧" class="headerlink" title="对潜在隐患的担忧"></a>对潜在隐患的担忧</h2><p>科学家警告称，人工智能的进步最终可能会威胁到人类。联合创始人马斯克在对麻省理工学院的学生发言时表示，人工智能是人类“最大的生存威胁”。英国理论物理学家斯蒂芬·霍金告诉英国广播公司（BBC），人工智能可能会“以越来越快的速度重新设计自己”，以超越生物进化来取代人类。其他专家则认为，人工智能对人类构成任何威胁的风险仍然很遥远。</p><p>为了减轻人工智能的内在危险，OpenAI的创始人们将其构建为非营利组织，以便他们可以将研究重点放在对人类做出积极的长期贡献上。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="OpenAI-ChatGPT账号购买-ChatGPT-Plus升级订阅"><a href="#OpenAI-ChatGPT账号购买-ChatGPT-Plus升级订阅" class="headerlink" title="OpenAI ChatGPT账号购买 ChatGPT Plus升级订阅"></a>OpenAI ChatGPT账号购买 ChatGPT Plus升级订阅</h1><p>购买地址：<a href="https://whaleai.cc/">whaleai.cc</a></p><blockquote><p>此平台已经在国内工信部备案，企业认证，安全可靠，真正的有质保！</p></blockquote><h2 id="ChatGPT账号购买"><a href="#ChatGPT账号购买" class="headerlink" title="ChatGPT账号购买"></a>ChatGPT账号购买</h2><blockquote><p>ChatGPT每三小时免费使用10条4o模型，超出后默认使用3.5模型</p></blockquote><ol><li>所有的账号都是纯手工注册，我们提供真正的质保政策。</li><li>国内工信部备案网站，不会收了钱就跑路，7x12小时客服在线！</li><li>可修改ChatGPT密码和对应的邮箱密码，一人一号，独享账号。</li><li>提供完整的教程指引，账号提供一年，甚至终身质保。</li><li>正规平台，只收取人工和服务等成本，绝不漫天要价。</li><li>累计运行将近一年，全网多个平台服务 50000+顾客。</li></ol><h2 id="ChatGPT-Plus账号购买"><a href="#ChatGPT-Plus账号购买" class="headerlink" title="ChatGPT Plus账号购买"></a>ChatGPT Plus账号购买</h2><blockquote><p>ChatGPT4.0，ChatGPT Plus，ChatGPT4o，其实说的是一个，因为Plus可以使用4.0和4o模型</p></blockquote><ol><li>提供多人共享，对于使用量不大的用户，可降低使用成本</li><li>同时提供独享账号和代充值服务，满足不同用户的需求。</li><li>使用正规的实体卡支付，从源头杜绝封号问题。</li><li>正规备案平台，绝不漫天要价。$20+开卡费+人工+服务成本</li></ol><p>目前国内注册ChatGPT账号比较难，而且大多数个人用户对于注册使用都不是很了解，花费极低的价格购买一个成品号是绝佳选择。</p>]]></content>
+    
+    
+    <summary type="html">提供纯手工ChatGPT账号购买，成品ChatGPT账号，开箱即用，正规卡代充值Plus</summary>
+    
+    
+    
+    <category term="科技" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/"/>
+    
+    <category term="人工智能" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    <category term="ChatGPT" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/ChatGPT/"/>
+    
+    <category term="ChatGPT Plus" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/ChatGPT/ChatGPT-Plus/"/>
+    
+    <category term="账号购买" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/ChatGPT/ChatGPT-Plus/%E8%B4%A6%E5%8F%B7%E8%B4%AD%E4%B9%B0/"/>
+    
+    
+    <category term="OpenAI" scheme="https://gpt-openai.github.io/tags/OpenAI/"/>
+    
+    <category term="ChatGPT账号购买" scheme="https://gpt-openai.github.io/tags/ChatGPT%E8%B4%A6%E5%8F%B7%E8%B4%AD%E4%B9%B0/"/>
+    
+    <category term="ChatGPT账号注册" scheme="https://gpt-openai.github.io/tags/ChatGPT%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C/"/>
+    
+    <category term="GPT账号购买" scheme="https://gpt-openai.github.io/tags/GPT%E8%B4%A6%E5%8F%B7%E8%B4%AD%E4%B9%B0/"/>
+    
+    <category term="GPT账号注册" scheme="https://gpt-openai.github.io/tags/GPT%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C/"/>
+    
+    <category term="GPT" scheme="https://gpt-openai.github.io/tags/GPT/"/>
+    
+    <category term="GPT Plus" scheme="https://gpt-openai.github.io/tags/GPT-Plus/"/>
+    
+    <category term="ChatGPT" scheme="https://gpt-openai.github.io/tags/ChatGPT/"/>
+    
+    <category term="ChatGPT Plus" scheme="https://gpt-openai.github.io/tags/ChatGPT-Plus/"/>
+    
+    <category term="ChatGPT Plus升级" scheme="https://gpt-openai.github.io/tags/ChatGPT-Plus%E5%8D%87%E7%BA%A7/"/>
+    
+    <category term="OpenAI账号" scheme="https://gpt-openai.github.io/tags/OpenAI%E8%B4%A6%E5%8F%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>OpenAI&#39;s人工智能 - ChatGPT</title>
+    <link href="https://gpt-openai.github.io/cognition-chatgpt/"/>
+    <id>https://gpt-openai.github.io/cognition-chatgpt/</id>
+    <published>2024-06-28T04:00:00.000Z</published>
+    <updated>2024-06-29T10:35:20.044Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="ChatGPT"><a href="#ChatGPT" class="headerlink" title="ChatGPT"></a>ChatGPT</h1><p>(OpenAI官网)[<a href="https://chatgpt.com]">https://chatgpt.com]</a></p><blockquote><p>ChatGPT，全称聊天生成预训练转换器（英语：Chat Generative Pre-trained Transformer），是<a href="/cognition-openai/" title="从零开始了解 OpenAI 的发展史">OpenAI</a> 开发的人工智能聊天机器人程序，于2022年12月推出。该程序使用基于GPT-3.5、GPT-4、GPT-4o架构的大型语言模型并以强化学习训练。ChatGPT目前仍以文字方式交互，而除了可以用人类自然对话方式来交互，还可以用于甚为复杂的语言工作，包括自动生成文本、自动问答、自动摘要等多种任务。如：在自动文本生成方面，ChatGPT可以根据输入的文本自动生成类似的文本（剧本、歌曲、企划等），在自动问答方面，ChatGPT可以根据输入的问题自动生成答案。还有编写和调试计算机程序的能力。</p></blockquote><h2 id="训练"><a href="#训练" class="headerlink" title="训练"></a>训练</h2><p>OpenAI从ChatGPT用户那里收集数据，这些数据可用于加强训练和微调ChatGPT。</p><h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><p>虽然聊天机器人的核心功能是模仿人类对话者，但ChatGPT用途广泛，例如可以编写信件；有编写和调试计算机程序的能力；创作音乐、电视剧、童话故事和学生论文；回答测试问题（在某些测试情境下，水平高于普通人类测试者）；写诗和歌词；模拟Linux系统等。ChatGPT的训练数据包括各种文档以及关于互联网、编程语言等各类知识，如BBS和Python编程语言。</p><h2 id="局限"><a href="#局限" class="headerlink" title="局限"></a>局限</h2><p>ChatGPT也有多种局限，OpenAI承认ChatGPT“有时会写出看似合理但不正确或荒谬的答案”，在大语言模型中很常见，称作人工智能幻觉。其奖励模型围绕人类监督而设计，可能导致过度优化，从而影响性能（古德哈特定律）。Steven Johnson认为原因是聊天机器人的目标不是追求绝对的真理或准确性，而是尽量根据给定的上下文和概率来产生合理的回答。2020年上线时，ChatGPT对2019年9月之后发生的事件知之甚少。据BBC报道，截至2022年12月，ChatGPT不可以“表达政治观点或从事政治活动”。但研究表明，ChatGPT对两个投票建议应用程序的政治声明表明立场时，表现出亲环境主义。训练过程中，不管实际理解或事实内容如何，审核者都会偏好更长的答案。训练数据也有算法偏差，可能会在向ChatGPT问及人物描述时显现出来。有用户发现ChatGPT在解决较为复杂的题目（如求方程式的切线）时会给出错误答案，并且会在解一元一次方程式时陷入循环。</p><h2 id="偏差"><a href="#偏差" class="headerlink" title="偏差"></a>偏差</h2><p>ChatGPT可能会受到训练数据中不同观点的分布影响，偏向于一些更普遍的观点，影响了模型输出的多样性。比如，当提示词中出现首席执行官之类的模糊描述时可能会假设此人是白人男性。</p><h2 id="服务"><a href="#服务" class="headerlink" title="服务"></a>服务</h2><h3 id="基本服务"><a href="#基本服务" class="headerlink" title="基本服务"></a>基本服务</h3><p>ChatGPT于2022年11月30日由总部位于旧金山的OpenAI推出。该服务最初是免费向公众推出，并计划以后用该服务获利。到12月4日，OpenAI估计ChatGPT已有超过一百万用户。2023年1月，ChatGPT的用户数超过1亿，成为该时间段内增长最快的消费者应用程序。</p><p>2022年12月15日，全国广播公司商业频道写道，该服务“仍然不时发生故障”。该服务在英语中效果最好，也能使用部分其他语言，但效果不一。与其他备受瞩目的AI进展不同，截至2022年12月，还没有关于ChatGPT的经同行评审的官方技术论文。</p><p>2023年2月7日，微软利用与OpenAI的合作关系，推出了必应 AI的预览版，宣传其为“新的下一代OpenAI大型语言模型，比ChatGPT更强大，并专门为搜索定制”。</p><a href="/chatgpt-buy/" title="OpenAI ChatGPT账号购买 ChatGPT Plus升级订阅">ChatGPT账号购买</a><h3 id="ChatGPT-Plus优质服务"><a href="#ChatGPT-Plus优质服务" class="headerlink" title="ChatGPT Plus优质服务"></a>ChatGPT Plus优质服务</h3><p>OpenAI推出ChatGPT专业版计划（ChatGPT Plus），每月收费20美元，该计划正逐步面向更多国家推出，需求较低时可使用免费版。</p><p>2023年3月12日，OpenAI发布多模态模型GPT-4，并计划推出图像输入功能。免费用户可通过申请API或升级为plus用户使用GPT-4服务。</p><p>2023年7月，OpenAI使其专有的Advanced Data Analysis功能对ChatGPT Plus的所有订阅者都可用。Advanced Data Analysis提供了广泛的功能，包括数据分析和解释、即时数据格式化、个人数据科学家服务、创意解决方案、音乐品味分析、视频编辑和文件上传&#x2F;下载与图像提取。2023年9月底，新增对话、图像识功能。2023年10月，新增了DALLE-3图像生成功能。</p><p>2023年11月，OpenAI在其开发者召开会上公布两个重要消息：推出的聊天机器人创建工具GPT和ChatGPT的新模型GPT-4 Turbo。</p><p>2024年5月13日,OpenAI宣布多语言、多模态GPT大型语言模型GPT-4o。该模型比其前身GPT-4快两倍，而价格仅为其50%。OpenAI演示了与ChatGPT的语音对话，以获得解决数学问题的实时说明、讲述睡前故事并获得编码建议。免费ChatGPT用户将可以与新的GPT-4o模型进行有限次数的交互，然后该工具会自动恢复依赖旧的GPT-3.5模型；付费用户将可以使用最新GPT-4o访问更多数量的消息。</p><a href="/chatgpt-buy/" title="OpenAI ChatGPT账号购买 ChatGPT Plus升级订阅">ChatGPT Plus购买</a><h3 id="移动应用"><a href="#移动应用" class="headerlink" title="移动应用"></a>移动应用</h3><p>2023年5月18日，OpenAI发布适用于iOS平台的ChatGPT APP。APP目前已在App Store美国区上架，目前已扩展至其他国家和地区。</p><p>适用于Android平台的版本于2023年7月25日推出，Android版ChatGPT目前可在阿根廷、孟加拉国、巴西、加拿大、法国、德国、印度、印度尼西亚、爱尔兰、日本、墨西哥、尼日利亚、菲律宾、韩国、英国和美国下载。</p><h3 id="电脑应用"><a href="#电脑应用" class="headerlink" title="电脑应用"></a>电脑应用</h3><p>目前OpenAI已经正式发布Mac端的ChatGPT App，但是目前仅限于M系列的Mac电脑，Intel的暂时没有推出，可以继续使用web版，Windows版将在年内发布。<br>(下载Mac端ChatGPT)[<a href="https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_latest.dmg]">https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_latest.dmg]</a></p>]]></content>
+    
+    
+    <summary type="html">本文详细介绍了ChatGPT的训练过程、特点、局限性及其在多个平台上的服务和应用，包括基本服务和ChatGPT Plus优质服务</summary>
+    
+    
+    
+    <category term="科技" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/"/>
+    
+    <category term="人工智能" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    <category term="ChatGPT" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/ChatGPT/"/>
+    
+    
+    <category term="OpenAI" scheme="https://gpt-openai.github.io/tags/OpenAI/"/>
+    
+    <category term="GPT" scheme="https://gpt-openai.github.io/tags/GPT/"/>
+    
+    <category term="ChatGPT" scheme="https://gpt-openai.github.io/tags/ChatGPT/"/>
+    
+    <category term="AI研究" scheme="https://gpt-openai.github.io/tags/AI%E7%A0%94%E7%A9%B6/"/>
+    
+    <category term="深度学习" scheme="https://gpt-openai.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从零开始了解 OpenAI 的发展史</title>
+    <link href="https://gpt-openai.github.io/cognition-openai/"/>
+    <id>https://gpt-openai.github.io/cognition-openai/</id>
+    <published>2024-06-28T04:00:00.000Z</published>
+    <updated>2024-06-29T10:34:53.438Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="从零开始了解-OpenAI-的发展史"><a href="#从零开始了解-OpenAI-的发展史" class="headerlink" title="从零开始了解 OpenAI 的发展史"></a>从零开始了解 OpenAI 的发展史</h1><p>(OpenAI官网)[<a href="https://openai.com]">https://openai.com]</a></p><h2 id="成立时间"><a href="#成立时间" class="headerlink" title="成立时间"></a>成立时间</h2><p>2015年12月11日，8年前</p><h2 id="命名缘由"><a href="#命名缘由" class="headerlink" title="命名缘由"></a>命名缘由</h2><p>开放、人工智能</p><h2 id="创始人"><a href="#创始人" class="headerlink" title="创始人"></a>创始人</h2><ul><li>萨姆·阿尔特曼</li><li>伊尔亚·苏茨克维</li><li>格雷格·布罗克曼</li><li>沃伊切赫·萨伦巴</li><li>伊隆·马斯克 - 起名者 [同样也是特斯拉的创始人]</li><li>约翰·舒曼</li><li>安德烈·卡帕斯</li></ul><h2 id="产品"><a href="#产品" class="headerlink" title="产品"></a>产品</h2><ul><li>OpenAI Five</li><li>GPT-1, 2, 3, 4</li><li>DALL-E</li><li>OpenAI Codex</li><li>ChatGPT</li><li>Sora</li></ul><p>OpenAI，中国大陆译为开放人工智能研究中心，是一个美国人工智能研究实验室，由非营利组织OpenAI Inc和其营利组织子公司OpenAI LP所组成。OpenAI进行AI研究的目的是促进和发展友好的人工智能，使人类整体受益。OpenAI系统运行在微软基于Azure的超级计算平台上。</p><h3 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h3><h4 id="2015–2018年：作为非营利机构起步"><a href="#2015–2018年：作为非营利机构起步" class="headerlink" title="2015–2018年：作为非营利机构起步"></a>2015–2018年：作为非营利机构起步</h4><p>OpenAI最初作为非营利机构成立，专注于人工智能研究，以造福全人类为目标。</p><h4 id="2019年：向营利性公司转型"><a href="#2019年：向营利性公司转型" class="headerlink" title="2019年：向营利性公司转型"></a>2019年：向营利性公司转型</h4><p>OpenAI转型为营利性公司，以吸引更多资源并加快其研究和开发进程。</p><h4 id="2020年至今：ChatGPT、Sora、DALL-E以及与微软的合作伙伴关系"><a href="#2020年至今：ChatGPT、Sora、DALL-E以及与微软的合作伙伴关系" class="headerlink" title="2020年至今：ChatGPT、Sora、DALL-E以及与微软的合作伙伴关系"></a>2020年至今：ChatGPT、Sora、DALL-E以及与微软的合作伙伴关系</h4><p>推出了多项具有里程碑意义的产品，并与微软建立了战略合作伙伴关系。</p><h3 id="产品与应用"><a href="#产品与应用" class="headerlink" title="产品与应用"></a>产品与应用</h3><h4 id="Gym"><a href="#Gym" class="headerlink" title="Gym"></a>Gym</h4><p>用于强化学习研究的平台。</p><h4 id="RoboSumo"><a href="#RoboSumo" class="headerlink" title="RoboSumo"></a>RoboSumo</h4><p>一个机器人相扑模拟环境。</p><h4 id="电子游戏机器人和基准测试"><a href="#电子游戏机器人和基准测试" class="headerlink" title="电子游戏机器人和基准测试"></a>电子游戏机器人和基准测试</h4><p>研究和测试AI在电子游戏中的表现。</p><h4 id="OpenAI-Five"><a href="#OpenAI-Five" class="headerlink" title="OpenAI Five"></a>OpenAI Five</h4><p>一个能够在Dota 2中与人类玩家竞争的AI系统。</p><h4 id="GYM-Retro"><a href="#GYM-Retro" class="headerlink" title="GYM Retro"></a>GYM Retro</h4><p>一个用于强化学习的游戏环境。</p><h4 id="Dactyl"><a href="#Dactyl" class="headerlink" title="Dactyl"></a>Dactyl</h4><p>一个用于机器人手的强化学习研究项目。</p><h4 id="API"><a href="#API" class="headerlink" title="API"></a>API</h4><p>提供了AI模型的访问接口，供开发者使用。</p><h3 id="生成式模型"><a href="#生成式模型" class="headerlink" title="生成式模型"></a>生成式模型</h3><h4 id="OpenAI的原始GPT模型"><a href="#OpenAI的原始GPT模型" class="headerlink" title="OpenAI的原始GPT模型"></a>OpenAI的原始GPT模型</h4><p>初代生成预训练模型。</p><h4 id="GPT-2"><a href="#GPT-2" class="headerlink" title="GPT-2"></a>GPT-2</h4><p>2021年2月，GPT-2根据自己的维基百科文章中的提示撰写段落的一个实例。</p><h4 id="GPT-3"><a href="#GPT-3" class="headerlink" title="GPT-3"></a>GPT-3</h4><p>第三代生成预训练模型，显著提升了语言生成能力。</p><h4 id="Codex"><a href="#Codex" class="headerlink" title="Codex"></a>Codex</h4><p>专注于代码生成的模型。</p><h4 id="GPT-4"><a href="#GPT-4" class="headerlink" title="GPT-4"></a>GPT-4</h4><p>最新一代生成预训练模型，进一步提升了性能和能力。</p><h4 id="Sora"><a href="#Sora" class="headerlink" title="Sora"></a>Sora</h4><p>新推出的产品，详细信息待公布。</p><h3 id="用户界面"><a href="#用户界面" class="headerlink" title="用户界面"></a>用户界面</h3><h4 id="MuseNet和Jukebox（音乐）"><a href="#MuseNet和Jukebox（音乐）" class="headerlink" title="MuseNet和Jukebox（音乐）"></a>MuseNet和Jukebox（音乐）</h4><p>用于生成音乐的AI模型。</p><h4 id="Microscope"><a href="#Microscope" class="headerlink" title="Microscope"></a>Microscope</h4><p>一个用于AI研究的可视化工具。</p><h4 id="DALL-E和CLIP（图片）"><a href="#DALL-E和CLIP（图片）" class="headerlink" title="DALL-E和CLIP（图片）"></a>DALL-E和CLIP（图片）</h4><p>用于图像生成和处理的AI模型。</p><h4 id="DALL-E-2"><a href="#DALL-E-2" class="headerlink" title="DALL-E 2"></a>DALL-E 2</h4><p>DALL-E的升级版本，生成能力更强。</p><h3 id="ChatGPT"><a href="#ChatGPT" class="headerlink" title="ChatGPT"></a>ChatGPT</h3><a href="/chatgpt-buy/" title="OpenAI ChatGPT账号购买 ChatGPT Plus升级订阅">ChatGPT账号购买</a><p>ChatGPT于2022年11月推出，是一种建立在GPT-3之上的人工智能工具，它提供了一个对话界面，允许用户使用自然语言提问。然后系统会在几秒钟内恢复一个答案。ChatGPT在发布5天后就达到了100万用户。</p><h3 id="ChatGPT-Plus"><a href="#ChatGPT-Plus" class="headerlink" title="ChatGPT Plus"></a>ChatGPT Plus</h3><a href="/chatgpt-buy/" title="OpenAI ChatGPT账号购买 ChatGPT Plus升级订阅">ChatGPT Plus购买</a><p>ChatGPT Plus是一项每月$20美元的订阅服务，允许用户在高峰时段访问ChatGPT，提供更快的响应时间，并让用户提前访问新功能。</p><h3 id="ChatGPT插件商店：AI聊天机器人的革命性升级"><a href="#ChatGPT插件商店：AI聊天机器人的革命性升级" class="headerlink" title="ChatGPT插件商店：AI聊天机器人的革命性升级"></a>ChatGPT插件商店：AI聊天机器人的革命性升级</h3><p>人工智能（AI）世界不断发展，使聊天机器人比以往任何时候都更有能力。最近推出的ChatGPT插件商店证明了这一进步，代表了AI聊天机器人的主要游戏规则改变者。这项突破性的创新使ChatGPT能够访问第三方插件，显著增强其功能，并为开发人员和用户等开启了无限可能的世界。</p><h2 id="基本理念"><a href="#基本理念" class="headerlink" title="基本理念"></a>基本理念</h2><p>OpenAI表示，人工智能“应该是人类个体意志的延伸”，“本着自由的精神，在安全的情况下尽可能进行广泛和均匀地分布”。</p><h2 id="对潜在隐患的担忧"><a href="#对潜在隐患的担忧" class="headerlink" title="对潜在隐患的担忧"></a>对潜在隐患的担忧</h2><p>科学家警告称，人工智能的进步最终可能会威胁到人类。联合创始人马斯克在对麻省理工学院的学生发言时表示，人工智能是人类“最大的生存威胁”。英国理论物理学家斯蒂芬·霍金告诉英国广播公司（BBC），人工智能可能会“以越来越快的速度重新设计自己”，以超越生物进化来取代人类。其他专家则认为，人工智能对人类构成任何威胁的风险仍然很遥远。</p><p>为了减轻人工智能的内在危险，OpenAI的创始人们将其构建为非营利组织，以便他们可以将研究重点放在对人类做出积极的长期贡献上。</p>]]></content>
     
     
     <summary type="html">OpenAI成立于2015年，致力于推动友好的人工智能发展。由萨姆·阿尔特曼和伊隆·马斯克等人创立，OpenAI以非营利组织起步，后转型为营利性公司。其产品包括GPT系列、DALL-E、ChatGPT等，均对AI领域产生了深远影响。OpenAI的核心理念是确保人工智能为人类整体福祉服务，同时其发展也引发了对AI潜在威胁的广泛讨论。与微软的合作进一步增强了OpenAI的技术能力，未来发展备受瞩目。</summary>
     
     
     
-    <category term="科技" scheme="https://oai-chatgpt.github.io/categories/%E7%A7%91%E6%8A%80/"/>
+    <category term="科技" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/"/>
     
-    <category term="人工智能" scheme="https://oai-chatgpt.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    <category term="人工智能" scheme="https://gpt-openai.github.io/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
     
     
-    <category term="OpenAI" scheme="https://oai-chatgpt.github.io/tags/OpenAI/"/>
+    <category term="OpenAI" scheme="https://gpt-openai.github.io/tags/OpenAI/"/>
     
-    <category term="AI研究" scheme="https://oai-chatgpt.github.io/tags/AI%E7%A0%94%E7%A9%B6/"/>
+    <category term="AI研究" scheme="https://gpt-openai.github.io/tags/AI%E7%A0%94%E7%A9%B6/"/>
     
-    <category term="深度学习" scheme="https://oai-chatgpt.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    <category term="深度学习" scheme="https://gpt-openai.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="GPT-4" scheme="https://oai-chatgpt.github.io/tags/GPT-4/"/>
+    <category term="GPT-4" scheme="https://gpt-openai.github.io/tags/GPT-4/"/>
     
   </entry>
   

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.2.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/m_logo-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/m_logo-16x16.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha256-XOqroi11tY4EFQMR9ZYwZWKj5ZXiftSx36RRuC3anlA=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"gpt-openai.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="本文详细介绍了ChatGPT的训练过程、特点、局限性及其在多个平台上的服务和应用，包括基本服务和ChatGPT Plus优质服务">
+<meta property="og:type" content="article">
+<meta property="og:title" content="OpenAI&#39;s人工智能 - ChatGPT">
+<meta property="og:url" content="https://gpt-openai.github.io/cognition-chatgpt/index.html">
+<meta property="og:site_name" content="WhaleAI - ChatGPT中文网">
+<meta property="og:description" content="本文详细介绍了ChatGPT的训练过程、特点、局限性及其在多个平台上的服务和应用，包括基本服务和ChatGPT Plus优质服务">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-06-28T04:00:00.000Z">
+<meta property="article:modified_time" content="2024-06-29T10:35:20.044Z">
+<meta property="article:author" content="WhaleAI">
+<meta property="article:tag" content="OpenAI">
+<meta property="article:tag" content="GPT">
+<meta property="article:tag" content="ChatGPT">
+<meta property="article:tag" content="AI研究">
+<meta property="article:tag" content="深度学习">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://gpt-openai.github.io/cognition-chatgpt/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://gpt-openai.github.io/cognition-chatgpt/","path":"cognition-chatgpt/","title":"OpenAI's人工智能 - ChatGPT"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>OpenAI's人工智能 - ChatGPT | WhaleAI - ChatGPT中文网</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="WhaleAI - ChatGPT中文网" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">WhaleAI - ChatGPT中文网</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">免费ChatGPT资源与指南</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-账号购买"><a href="https://whaleai.cc/" rel="section" target="_blank"><i class="fa fa-cart-shopping fa-fw"></i>账号购买</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="搜索..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#ChatGPT"><span class="nav-number">1.</span> <span class="nav-text">ChatGPT</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%AD%E7%BB%83"><span class="nav-number">1.1.</span> <span class="nav-text">训练</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%89%B9%E7%82%B9"><span class="nav-number">1.2.</span> <span class="nav-text">特点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B1%80%E9%99%90"><span class="nav-number">1.3.</span> <span class="nav-text">局限</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%81%8F%E5%B7%AE"><span class="nav-number">1.4.</span> <span class="nav-text">偏差</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%8D%E5%8A%A1"><span class="nav-number">1.5.</span> <span class="nav-text">服务</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E6%9C%8D%E5%8A%A1"><span class="nav-number">1.5.1.</span> <span class="nav-text">基本服务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ChatGPT-Plus%E4%BC%98%E8%B4%A8%E6%9C%8D%E5%8A%A1"><span class="nav-number">1.5.2.</span> <span class="nav-text">ChatGPT Plus优质服务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8"><span class="nav-number">1.5.3.</span> <span class="nav-text">移动应用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%B5%E8%84%91%E5%BA%94%E7%94%A8"><span class="nav-number">1.5.4.</span> <span class="nav-text">电脑应用</span></a></li></ol></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="WhaleAI"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">WhaleAI</p>
+  <div class="site-description" itemprop="description">WhaleAI 提供全面的 ChatGPT 中文资源与指南，包括 ChatGPT 账号注册、使用教程、Plus 升级、问题解决方案等。</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="sidebar-inner sidebar-blogroll">
+      <div class="links-of-blogroll animated">
+        <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+          友情链接
+        </div>
+        <ul class="links-of-blogroll-list">
+            <li class="links-of-blogroll-item">
+              <a href="https://whaleai.cc/" title="https:&#x2F;&#x2F;whaleai.cc" rel="noopener" target="_blank">WhaleAI</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://gpt-openai.github.io/cognition-chatgpt/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="WhaleAI">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="WhaleAI - ChatGPT中文网">
+      <meta itemprop="description" content="WhaleAI 提供全面的 ChatGPT 中文资源与指南，包括 ChatGPT 账号注册、使用教程、Plus 升级、问题解决方案等。">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="OpenAI's人工智能 - ChatGPT | WhaleAI - ChatGPT中文网">
+      <meta itemprop="description" content="本文详细介绍了ChatGPT的训练过程、特点、局限性及其在多个平台上的服务和应用，包括基本服务和ChatGPT Plus优质服务">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          OpenAI's人工智能 - ChatGPT
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2024-06-28 12:00:00" itemprop="dateCreated datePublished" datetime="2024-06-28T12:00:00+08:00">2024-06-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2024-06-29 18:35:20" itemprop="dateModified" datetime="2024-06-29T18:35:20+08:00">2024-06-29</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%A7%91%E6%8A%80/" itemprop="url" rel="index"><span itemprop="name">科技</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" itemprop="url" rel="index"><span itemprop="name">人工智能</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%A7%91%E6%8A%80/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/ChatGPT/" itemprop="url" rel="index"><span itemprop="name">ChatGPT</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+            <div class="post-description">本文详细介绍了ChatGPT的训练过程、特点、局限性及其在多个平台上的服务和应用，包括基本服务和ChatGPT Plus优质服务</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h1 id="ChatGPT"><a href="#ChatGPT" class="headerlink" title="ChatGPT"></a>ChatGPT</h1><p>(OpenAI官网)[<a href="https://chatgpt.com]">https://chatgpt.com]</a></p>
+<blockquote>
+<p>ChatGPT，全称聊天生成预训练转换器（英语：Chat Generative Pre-trained Transformer），是<a href="/cognition-openai/" title="从零开始了解 OpenAI 的发展史">OpenAI</a> 开发的人工智能聊天机器人程序，于2022年12月推出。该程序使用基于GPT-3.5、GPT-4、GPT-4o架构的大型语言模型并以强化学习训练。ChatGPT目前仍以文字方式交互，而除了可以用人类自然对话方式来交互，还可以用于甚为复杂的语言工作，包括自动生成文本、自动问答、自动摘要等多种任务。如：在自动文本生成方面，ChatGPT可以根据输入的文本自动生成类似的文本（剧本、歌曲、企划等），在自动问答方面，ChatGPT可以根据输入的问题自动生成答案。还有编写和调试计算机程序的能力。</p>
+</blockquote>
+<h2 id="训练"><a href="#训练" class="headerlink" title="训练"></a>训练</h2><p>OpenAI从ChatGPT用户那里收集数据，这些数据可用于加强训练和微调ChatGPT。</p>
+<h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><p>虽然聊天机器人的核心功能是模仿人类对话者，但ChatGPT用途广泛，例如可以编写信件；有编写和调试计算机程序的能力；创作音乐、电视剧、童话故事和学生论文；回答测试问题（在某些测试情境下，水平高于普通人类测试者）；写诗和歌词；模拟Linux系统等。ChatGPT的训练数据包括各种文档以及关于互联网、编程语言等各类知识，如BBS和Python编程语言。</p>
+<h2 id="局限"><a href="#局限" class="headerlink" title="局限"></a>局限</h2><p>ChatGPT也有多种局限，OpenAI承认ChatGPT“有时会写出看似合理但不正确或荒谬的答案”，在大语言模型中很常见，称作人工智能幻觉。其奖励模型围绕人类监督而设计，可能导致过度优化，从而影响性能（古德哈特定律）。Steven Johnson认为原因是聊天机器人的目标不是追求绝对的真理或准确性，而是尽量根据给定的上下文和概率来产生合理的回答。2020年上线时，ChatGPT对2019年9月之后发生的事件知之甚少。据BBC报道，截至2022年12月，ChatGPT不可以“表达政治观点或从事政治活动”。但研究表明，ChatGPT对两个投票建议应用程序的政治声明表明立场时，表现出亲环境主义。训练过程中，不管实际理解或事实内容如何，审核者都会偏好更长的答案。训练数据也有算法偏差，可能会在向ChatGPT问及人物描述时显现出来。有用户发现ChatGPT在解决较为复杂的题目（如求方程式的切线）时会给出错误答案，并且会在解一元一次方程式时陷入循环。</p>
+<h2 id="偏差"><a href="#偏差" class="headerlink" title="偏差"></a>偏差</h2><p>ChatGPT可能会受到训练数据中不同观点的分布影响，偏向于一些更普遍的观点，影响了模型输出的多样性。比如，当提示词中出现首席执行官之类的模糊描述时可能会假设此人是白人男性。</p>
+<h2 id="服务"><a href="#服务" class="headerlink" title="服务"></a>服务</h2><h3 id="基本服务"><a href="#基本服务" class="headerlink" title="基本服务"></a>基本服务</h3><p>ChatGPT于2022年11月30日由总部位于旧金山的OpenAI推出。该服务最初是免费向公众推出，并计划以后用该服务获利。到12月4日，OpenAI估计ChatGPT已有超过一百万用户。2023年1月，ChatGPT的用户数超过1亿，成为该时间段内增长最快的消费者应用程序。</p>
+<p>2022年12月15日，全国广播公司商业频道写道，该服务“仍然不时发生故障”。该服务在英语中效果最好，也能使用部分其他语言，但效果不一。与其他备受瞩目的AI进展不同，截至2022年12月，还没有关于ChatGPT的经同行评审的官方技术论文。</p>
+<p>2023年2月7日，微软利用与OpenAI的合作关系，推出了必应 AI的预览版，宣传其为“新的下一代OpenAI大型语言模型，比ChatGPT更强大，并专门为搜索定制”。</p>
+<a href="/chatgpt-buy/" title="OpenAI ChatGPT账号购买 ChatGPT Plus升级订阅">ChatGPT账号购买</a>
+
+<h3 id="ChatGPT-Plus优质服务"><a href="#ChatGPT-Plus优质服务" class="headerlink" title="ChatGPT Plus优质服务"></a>ChatGPT Plus优质服务</h3><p>OpenAI推出ChatGPT专业版计划（ChatGPT Plus），每月收费20美元，该计划正逐步面向更多国家推出，需求较低时可使用免费版。</p>
+<p>2023年3月12日，OpenAI发布多模态模型GPT-4，并计划推出图像输入功能。免费用户可通过申请API或升级为plus用户使用GPT-4服务。</p>
+<p>2023年7月，OpenAI使其专有的Advanced Data Analysis功能对ChatGPT Plus的所有订阅者都可用。Advanced Data Analysis提供了广泛的功能，包括数据分析和解释、即时数据格式化、个人数据科学家服务、创意解决方案、音乐品味分析、视频编辑和文件上传&#x2F;下载与图像提取。2023年9月底，新增对话、图像识功能。2023年10月，新增了DALLE-3图像生成功能。</p>
+<p>2023年11月，OpenAI在其开发者召开会上公布两个重要消息：推出的聊天机器人创建工具GPT和ChatGPT的新模型GPT-4 Turbo。</p>
+<p>2024年5月13日,OpenAI宣布多语言、多模态GPT大型语言模型GPT-4o。该模型比其前身GPT-4快两倍，而价格仅为其50%。OpenAI演示了与ChatGPT的语音对话，以获得解决数学问题的实时说明、讲述睡前故事并获得编码建议。免费ChatGPT用户将可以与新的GPT-4o模型进行有限次数的交互，然后该工具会自动恢复依赖旧的GPT-3.5模型；付费用户将可以使用最新GPT-4o访问更多数量的消息。</p>
+<a href="/chatgpt-buy/" title="OpenAI ChatGPT账号购买 ChatGPT Plus升级订阅">ChatGPT Plus购买</a>
+
+<h3 id="移动应用"><a href="#移动应用" class="headerlink" title="移动应用"></a>移动应用</h3><p>2023年5月18日，OpenAI发布适用于iOS平台的ChatGPT APP。APP目前已在App Store美国区上架，目前已扩展至其他国家和地区。</p>
+<p>适用于Android平台的版本于2023年7月25日推出，Android版ChatGPT目前可在阿根廷、孟加拉国、巴西、加拿大、法国、德国、印度、印度尼西亚、爱尔兰、日本、墨西哥、尼日利亚、菲律宾、韩国、英国和美国下载。</p>
+<h3 id="电脑应用"><a href="#电脑应用" class="headerlink" title="电脑应用"></a>电脑应用</h3><p>目前OpenAI已经正式发布Mac端的ChatGPT App，但是目前仅限于M系列的Mac电脑，Intel的暂时没有推出，可以继续使用web版，Windows版将在年内发布。<br>(下载Mac端ChatGPT)[<a target="_blank" rel="noopener" href="https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_latest.dmg]">https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_latest.dmg]</a></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/OpenAI/" rel="tag"><i class="fa fa-tag"> OpenAI</i>
+              <a href="/tags/GPT/" rel="tag"><i class="fa fa-tag"> GPT</i>
+              <a href="/tags/ChatGPT/" rel="tag"><i class="fa fa-tag"> ChatGPT</i>
+              <a href="/tags/AI%E7%A0%94%E7%A9%B6/" rel="tag"><i class="fa fa-tag"> AI研究</i>
+              <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" rel="tag"><i class="fa fa-tag"> 深度学习</i>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/cognition-openai/" rel="prev" title="从零开始了解 OpenAI 的发展史">
+                  <i class="fa fa-angle-left"></i> 从零开始了解 OpenAI 的发展史
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/chatgpt-buy/" rel="next" title="OpenAI ChatGPT账号购买 ChatGPT Plus升级订阅">
+                  OpenAI ChatGPT账号购买 ChatGPT Plus升级订阅 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">WhaleAI</span>
+  </div>
+  <div class="powered-by">由 <a href="/">ChatGPT中文网</a> & <a href="https://whaleai.cc/" rel="noopener" target="_blank">WhaleAI</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>
